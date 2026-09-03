@@ -141,7 +141,7 @@ class AIResponder(QObject):
 
     def connect_to_model(self):
         try:
-            self.model = genai.GenerativeModel("models/gemini-2.5-flash")
+            self.model = genai.GenerativeModel("models/gemini-3.5-flash-lite")
             self.chat = self.model.start_chat(history=[])
             print(f"✅ SUCCESS: Connected to Gemini")
             self.offline_mode = False
