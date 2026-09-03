@@ -1,0 +1,16 @@
+# Local environment and secrets
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Local runtime data
+config.json
+contacts.json
+chat_history.json
+
+# Generated screenshots
+vision_auto_*.png
+
+# Local backup copies; not part of the public project
+*_backup.py
